@@ -6,7 +6,7 @@ def calculate_bmi( weight:float, height: float) -> float:
 
 def main():
     st.title("BMI Calculator")
-    st.image("./bmi.jfif", use_column_width = True, width =500)
+    st.image("bmi.jfif", use_column_width = True, width =500)
     st.text("Find out your Body Mass Index (BMI) and take hold of your health with our BMI Calculator")
     
     st.subheader("Biodata")
